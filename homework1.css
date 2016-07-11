@@ -1,0 +1,600 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+.firstpart 
+{ 
+	width: 100%;
+	height: 900px;
+	background-image: url("hero-bg.jpg");
+	background-size: cover;
+	margin-top: -50px;
+}
+h1
+{ 
+	font-family: Helvetica;
+	color: #333;
+	font-size: 70px;
+	text-align: center;
+	padding: 200px;
+}
+
+p
+{	font-size: 25px;
+	text-align: center;
+	margin-top: -200px;
+	color: 	#a9a9a9;
+}
+.button {
+	margin-left: 750px;
+	margin-top: 100PX;
+		display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  color:white;
+  background-color: aqua;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+				opacity: 0.5;
+ 				transition: all 1s ease 
+ 			}
+
+.secondpart
+{
+
+	margin: 50px;
+    background: #f3f5f8;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+ }
+
+.sarrow
+{	
+	font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: url("h1-bg.png") no-repeat center bottom;
+    padding-bottom: 30px;
+    font-weight: bold;
+	margin-top: -50px; 
+}
+
+ .sspara
+ {
+ 	margin: 60 200px 0 200px;
+    font-size: 14px;
+    color: #8c9398;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    margin-left: 550px;
+
+ }
+
+ .thirdpart
+ {
+ 	margin-top: -150px;
+	height: 300px;
+	width: 100%;
+}
+.tarrow
+{
+	font-size: 15px;
+    letter-spacing: 1px;
+    background: url("h1-bg.png") no-repeat center bottom;
+    padding-bottom: 30px;
+}
+.ficon
+{	
+	height: 500px;
+	width: 500px;
+	margin-left: 200px;
+	
+}
+.fimg
+{
+	height: 330px;
+
+}
+h2::after {
+    content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+    }
+.fhead
+{	
+	margin-top: 30px;
+	font-family: inherit;
+	font-size: 15px;
+	margin-left: -90px;
+ 	text-align: center;
+}
+.fpara
+{ 
+	margin-top: 100px;
+	height: 20px;
+	width: 300px;
+	margin-left: 60px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+.sicon
+{
+	height: 500px;
+	width: 500px;
+	margin-left: 750px;
+	margin-top: -510px;
+}
+.simg
+{	
+	margin-top: -20px;
+ 	height: 360px;
+}
+.shead
+{	
+	font-family: inherit;
+	font-size: 15px;
+	margin-left: -90px;
+	text-align: center;
+}
+
+.spara
+{	
+	margin-top: 100px;
+	margin-left: 50px;
+ 	height: 20px;
+	width: 300px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+.ticon
+{
+	height: 500px;
+	width: 500px;
+	margin-left: 1350px;
+	margin-top: -500px;
+}
+.timg
+{
+	height: 300px;
+}
+.thead
+{	
+	font-family: inherit;
+	font-size: 15px;
+	margin-left: -200PX;
+	margin-top: 50px;
+	text-align: center;
+}
+.tpara
+{
+	margin-top: 100px;
+	height: 20px;
+	width: 300px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fourthpart
+{
+	margin-top: -700px;
+	margin-left: 900px;
+}
+.ffhead
+{	
+	margin-right: -50px;	
+	font-size: 	18px;
+    letter-spacing: 1px;
+    background: url("h1-bg.png") no-repeat center bottom;
+    padding-bottom: 30px;
+    line-height: 25px;
+   
+}
+.ffpara
+{	
+	margin: 0px 210px 0 210px;
+	text-align: center;	
+	color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.five{
+	width: 100%;
+	background-image: url(plants-bg.jpg);
+	background-size: cover;
+	height: 200px;
+	margin-top: 300px;
+	padding-top: 75px;
+}
+.plants{
+	font-family: inherit;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.plant{
+	font-family: inherit;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.six
+{	
+	height: 300px;
+	width: 300px;
+	margin-left: 70px;
+	
+}
+.way
+{
+	width: 350px;
+	height: 200px;
+	margin:50px 0 0 80px;
+
+}
+.wayhead
+{		
+	margin-left: 180px;
+	font-family: inherit;
+	font-size: 12px;
+ 	text-align: center;
+}
+.waytext
+{ 	height: 20px;
+	width: 250px;
+	margin-left: 100px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.seven
+{
+	margin-left: 800px;
+	margin-top: -260PX
+}
+.work
+{	
+
+	width: 350px;
+	height: 200px;
+}
+.workhead
+{	
+	font-family: inherit;
+	font-size: 12px;
+	margin:20px 0 0 -750px;
+	text-align: center;
+}
+
+.worktext
+{
+	margin-top: 10px;
+	margin-left: 50px;
+ 	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.eight
+{
+	height: 350px;
+	width: 350px;
+	margin-left: 800px;
+	margin-top: -435px;
+}
+.dog
+{
+	margin-top: 100px;
+	margin-left: 600px;
+	width: 350px;
+	height: 200px;
+
+}
+.doghead
+{	
+	font-family: inherit;
+	font-size: 12px;
+	margin-left: 750PX;
+	margin-top: 10px;
+	
+}
+.dogtext
+{
+	margin-top: 10px;
+	margin-left: 650px;
+	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.ninen
+{
+	margin-top: 200px;
+	height: 200px;
+	background-color: #242830;
+	text-align: center;
+}
+.ntext
+{	
+
+	margin-top: 60px;
+	display: inline-block;
+    padding: 20px 40px;
+    color: #fff;
+    border: solid 1px #fff;
+    letter-spacing: 1px;
+    
+}
+
+.nine{
+	color: #353535;
+	background:url(h1-bg.png) no-repeat center; 
+	margin-top: -20px;
+	letter-spacing: 1px;
+	padding-bottom:1px;
+}
+
+.people{
+	text-align: center;
+	margin: 100px;
+}
+.ten
+{	
+	height: 400px;
+	width: 400px;
+	margin-left: 120px;
+	
+}
+.personone{
+	height: 220px;
+	margin:0 0 0 80px;
+
+}
+.pohead
+{	
+	margin-top: 30px 0 0 -100px;
+	font-family: inherit;
+	font-size: 14px;
+ 	text-align: center;
+}
+.potext
+{ 	
+	margin-top: 10px;
+	height: 20px;
+	width: 250px;
+	margin-left: 60px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.eleven
+{
+	height: 400px;
+	width: 400px;
+	margin-left: 830px;
+	margin-top: -390px;
+}
+.persontwo
+{	
+	margin:-25px 20px 20px; 
+ 	height: 220px;
+}
+.pthead
+{	
+	font-family: inherit;
+	font-size: 14px;
+	margin:-10px 0 0 -150px;
+	text-align: center;
+}
+
+.pttext
+{
+	margin-top: 10px;
+ 	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.twelve
+{
+	height: 400px;
+	width: 400px;
+	margin-left: 1500px;
+	margin-top: -435px;
+}
+.personthree
+{
+	height: 220px;
+	margin-top: -15px;
+}
+.pthhead
+{	
+	font-family: inherit;
+	font-size: 14px;
+	margin:10px 0 0 -150PX;
+	text-align: center;
+}
+.pthtext
+{
+	margin-top: 10px;
+	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.thirteen{
+	width: 100%;
+	background-image: url(keyboard-bg.jpg);
+	background-size: cover;
+	height: 300px;
+	padding-top: 75px;
+}
+.keyboard{
+	color: white;
+	text-align: center;
+	margin-top: 75px;
+}
+.input
+{
+	margin-left: 700px;
+	background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px #fff;
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+}
+.keysubmit
+{
+	background: rgba(61, 201, 179, 0.5);
+    border: solid 1px rgba(61, 201, 179, 0.5);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+     -webkit-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;
+}
+
+.fourteen
+{
+
+	width: 100%;
+	background-color: #f3f5f8;
+}
+
+.headt
+{
+
+	margin-top: 100px;
+	font-size: 15px;
+    letter-spacing: 1px;
+    background: url("h1-bg.png") no-repeat center bottom;
+    padding-bottom: 70px;
+   
+}
+
+.fifteen
+{
+	width: 400px;
+	height: 400px;
+	margin:50px 0 0 80px;
+
+}
+.adress
+{	
+	margin-top: 30px 0 0 -150px;
+	font-family: inherit;
+	font-size: 28px;
+ 	text-align: center;
+ 	color: #4FBFA8;
+}
+.level
+{ 	
+
+	margin-top: 20px;
+	height: 20px;
+	width: 250px;
+	margin-left: 60px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+.sixteen
+{
+	height: 400px;
+	width: 400px;
+	margin-left: 825px;
+	margin-top: -410px;
+}
+.phone
+{	
+	font-family: inherit;
+	font-size: 28px;
+	margin:-10px 0 0 -150px;
+	text-align: center;
+	color: #4FBFA8;
+}
+
+.mobile
+{
+ 	margin-top: 20px;
+ 	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+.seventeen
+{
+	height: 400px;
+	width: 400px;
+	margin-left: 1400px;
+	margin-top: -430px;
+}
+.email
+{
+
+	font-family: inherit;
+	font-size: 28px;
+	margin:10px 0 0 -150PX;
+	text-align: center;
+	color: #4FBFA8;
+}
+.mail
+{
+	margin-top: 20px;
+	height: 20px;
+	width: 250px;
+	color: #8c9398;
+    word-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+.end{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	padding: 100px;
+
+}
+.last{
+	color:  #8c9398;
+}
+
+.design{
+	color: white;
+	margin-top: -35px;
+	float: right; 
+}
