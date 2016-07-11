@@ -28,7 +28,7 @@ p
 	color: 	#a9a9a9;
 }
 .button {
-	margin-left: 750px;
+	margin-left: 600px;
 	margin-top: 100PX;
 		display: inline-block;
   padding: 15px 25px;
@@ -48,7 +48,8 @@ p
 .secondpart
 {
 
-	margin: 50px;
+	width: auto;
+	margin-top: 50px;
     background: #f3f5f8;
     letter-spacing: 1px;
     padding-bottom: 30px;
@@ -56,6 +57,8 @@ p
 
 .sarrow
 {	
+	margin-right: 100px;
+	margin-left: 100px;
 	font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -73,7 +76,7 @@ p
     width: 800px;
     height: 100px;
     text-align: center;
-    margin-left: 550px;
+    margin-left: 350px;
 
  }
 
@@ -84,23 +87,12 @@ p
 	width: 100%;
 }
 .tarrow
-{
+{	
+	margin-left: -25px;
 	font-size: 15px;
     letter-spacing: 1px;
     background: url("h1-bg.png") no-repeat center bottom;
     padding-bottom: 30px;
-}
-.ficon
-{	
-	height: 500px;
-	width: 500px;
-	margin-left: 200px;
-	
-}
-.fimg
-{
-	height: 330px;
-
 }
 h2::after {
     content: " ";
@@ -109,111 +101,140 @@ h2::after {
     width: 35px;
     margin: 25px auto;
     }
-.fhead
+.digital
+{	
+	height: 400px;
+	width: 400px;
+	margin-left: 20px;
+	
+}
+.digitald
+{
+	height: 250px;
+	margin-left: 40px;
+
+}
+.digihead
 {	
 	margin-top: 30px;
 	font-family: inherit;
-	font-size: 15px;
-	margin-left: -90px;
+	font-size: 14px;
+	margin-left: -10px;
  	text-align: center;
 }
-.fpara
-{ 
-	margin-top: 100px;
+.digipara
+{ 	
+	margin-top: 50px;
 	height: 20px;
-	width: 300px;
+	width: 250px;
 	margin-left: 60px;
 	color: #8c9398;
     word-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
-.sicon
+.web
 {
-	height: 500px;
-	width: 500px;
-	margin-left: 750px;
-	margin-top: -510px;
+
+	height: 400px;
+	width: 400px;
+	margin-left: 580px;
+	margin-top: -390px;
 }
-.simg
+.development
 {	
-	margin-top: -20px;
- 	height: 360px;
+	margin-left: 20px;
+	margin-top: -40px;
+ 	height: 270px;
 }
-.shead
+.webhead
 {	
 	font-family: inherit;
-	font-size: 15px;
-	margin-left: -90px;
+	font-size: 14px;
+	margin:20px 0 0 -50px;
 	text-align: center;
 }
 
-.spara
-{	
-	margin-top: 100px;
+.webpara
+{
+	margin-top: 50px;
 	margin-left: 50px;
  	height: 20px;
-	width: 300px;
+	width: 250px;
 	color: #8c9398;
     word-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
-.ticon
+.creative
 {
-	height: 500px;
-	width: 500px;
-	margin-left: 1350px;
-	margin-top: -500px;
+	float: right;
+	height: 400px;
+	width: 400px;
+	margin-top: -435px;
 }
-.timg
+.direction
 {
-	height: 300px;
+	margin-left: 10px;
+	height: 220px;
 }
-.thead
+.creativehead
 {	
 	font-family: inherit;
-	font-size: 15px;
-	margin-left: -200PX;
+	font-size: 14px;
+	margin-left: -150PX;
 	margin-top: 50px;
 	text-align: center;
 }
-.tpara
+.creativepara
 {
-	margin-top: 100px;
+	margin-top: 50px;
 	height: 20px;
-	width: 300px;
+	width: 250px;
 	color: #8c9398;
     word-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
-
-.fourthpart
+.fourth
 {
-	margin-top: -700px;
-	margin-left: 900px;
+	width: 100%;	
 }
-.ffhead
+
+.iphone
 {	
-	margin-right: -50px;	
-	font-size: 	18px;
-    letter-spacing: 1px;
-    background: url("h1-bg.png") no-repeat center bottom;
-    padding-bottom: 30px;
-    line-height: 25px;
-   
-}
-.ffpara
-{	
-	margin: 0px 210px 0 210px;
+	margin-top: 50px;
+	
+} 
+.ffpart
+{   
+	margin-top: -650px;           
+	float: right;	  
 	text-align: center;	
+}
+
+.ffhead
+{
+	margin-left: 790px;
+	display: block;
+	font-size: 15px;
+    color: #353535;
+    letter-spacing: 1px;
+    font-weight: bold;
+ }   
+.ffpara
+{
+	margin-right: 100px;
+	margin-left: 900px;
+	background: url("h1-bg.png") no-repeat center top;	
+	text-align: center;
 	color: #8c9398;
     word-spacing: 1px;
     line-height: 25px;
     font-size: 14px;
 }
-.five{
+
+.one{
 	width: 100%;
 	background-image: url(plants-bg.jpg);
 	background-size: cover;
@@ -221,7 +242,7 @@ h2::after {
 	margin-top: 300px;
 	padding-top: 75px;
 }
-.plants{
+.plant{
 	font-family: inherit;
     color: #fff;
     font-size: 40px;
@@ -229,66 +250,76 @@ h2::after {
     letter-spacing: 5px;
     text-align: center;
 }
-.plant{
+.writing{
 	font-family: inherit;
 	text-align: center;
 	color: white;
 	font-size: 25px;
 }
-.six
+.sse
+{
+	width: 100%;
+}
+.two
 {	
+	margin-left: 50px;
 	height: 300px;
 	width: 300px;
-	margin-left: 70px;
+	float: left;
 	
 }
-.way
+.phototwo
 {
 	width: 350px;
 	height: 200px;
-	margin:50px 0 0 80px;
+	margin:0 0 0 80px;
 
 }
-.wayhead
+.headtwo
 {		
-	margin-left: 180px;
+	margin-left: 190px;
 	font-family: inherit;
 	font-size: 12px;
  	text-align: center;
+ 	margin-top: 50px;
 }
-.waytext
-{ 	height: 20px;
+.paratwo
+{ 
+	height: 20px;
 	width: 250px;
-	margin-left: 100px;
+	margin-left: 110px;
 	color: #8c9398;
     word-spacing: 1px;
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
 }
-.seven
-{
-	margin-left: 800px;
-	margin-top: -260PX
-}
-.work
+.three
 {	
+	margin: 80px 0 0 550px; 
+	height: 300px;
+	width: 300px;
+	float: center;
 
+}
+.photothree
+{	
 	width: 350px;
 	height: 200px;
 }
-.workhead
-{	
+.headthree
+{		
 	font-family: inherit;
 	font-size: 12px;
-	margin:20px 0 0 -750px;
 	text-align: center;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 
-.worktext
-{
-	margin-top: 10px;
-	margin-left: 50px;
+.parathree
+{	
+	margin-top: 30px;	
+	margin-left: 55px;
  	height: 20px;
 	width: 250px;
 	color: #8c9398;
@@ -296,33 +327,33 @@ h2::after {
     font-size: 12px;
     text-align: center;
 }
-.eight
+.four
 {
+	margin-top: -400px;
+	margin-right:100px;
+	float: right;
 	height: 350px;
 	width: 350px;
-	margin-left: 800px;
-	margin-top: -435px;
 }
-.dog
+.photofour
 {
-	margin-top: 100px;
-	margin-left: 600px;
+	margin-top: 100px;	
 	width: 350px;
 	height: 200px;
 
 }
-.doghead
+.headfour
 {	
+	text-align: center;
 	font-family: inherit;
 	font-size: 12px;
-	margin-left: 750PX;
-	margin-top: 10px;
+	margin-top: 50px;
 	
 }
-.dogtext
+.parafour
 {
-	margin-top: 10px;
-	margin-left: 650px;
+	margin-left: 50px;
+	margin-top: 30px;
 	height: 20px;
 	width: 250px;
 	color: #8c9398;
@@ -330,14 +361,14 @@ h2::after {
     font-size: 12px;
     text-align: center;
 }
-.ninen
+.five
 {
 	margin-top: 200px;
 	height: 200px;
 	background-color: #242830;
 	text-align: center;
 }
-.ntext
+.headfive
 {	
 
 	margin-top: 60px;
@@ -349,7 +380,7 @@ h2::after {
     
 }
 
-.nine{
+.people{
 	color: #353535;
 	background:url(h1-bg.png) no-repeat center; 
 	margin-top: -20px;
@@ -357,30 +388,30 @@ h2::after {
 	padding-bottom:1px;
 }
 
-.people{
+.words{
 	text-align: center;
 	margin: 100px;
 }
-.ten
+.teamone
 {	
 	height: 400px;
 	width: 400px;
-	margin-left: 120px;
+	margin-left: 140px;
 	
 }
-.personone{
+.teamophoto{
 	height: 220px;
 	margin:0 0 0 80px;
 
 }
-.pohead
+.teamohead
 {	
 	margin-top: 30px 0 0 -100px;
 	font-family: inherit;
 	font-size: 14px;
  	text-align: center;
 }
-.potext
+.teamopara
 { 	
 	margin-top: 10px;
 	height: 20px;
@@ -391,19 +422,19 @@ h2::after {
     font-size: 12px;
     text-align: center;
 }
-.eleven
+.teamtwo
 {
 	height: 400px;
 	width: 400px;
-	margin-left: 830px;
-	margin-top: -390px;
+	margin-left: 580px;
+	margin-top: -400px;
 }
-.persontwo
+.teamtphoto
 {	
 	margin:-25px 20px 20px; 
  	height: 220px;
 }
-.pthead
+.teamthead
 {	
 	font-family: inherit;
 	font-size: 14px;
@@ -411,7 +442,7 @@ h2::after {
 	text-align: center;
 }
 
-.pttext
+.teamtpara
 {
 	margin-top: 10px;
  	height: 20px;
@@ -421,26 +452,26 @@ h2::after {
     font-size: 12px;
     text-align: center;
 }
-.twelve
+.teamthree
 {
 	height: 400px;
 	width: 400px;
-	margin-left: 1500px;
+	margin-left: 950px;
 	margin-top: -435px;
 }
-.personthree
+.teamthphoto
 {
 	height: 220px;
 	margin-top: -15px;
 }
-.pthhead
+.teamthhead
 {	
 	font-family: inherit;
 	font-size: 14px;
 	margin:10px 0 0 -150PX;
 	text-align: center;
 }
-.pthtext
+.teamthpara
 {
 	margin-top: 10px;
 	height: 20px;
@@ -450,28 +481,29 @@ h2::after {
     font-size: 12px;
     text-align: center;
 }
-.thirteen{
+.six{
 	width: 100%;
 	background-image: url(keyboard-bg.jpg);
 	background-size: cover;
 	height: 300px;
-	padding-top: 75px;
+	padding-top: 50px;
 }
-.keyboard{
+.coffee{
 	color: white;
 	text-align: center;
-	margin-top: 75px;
+	margin-top: 50px;
 }
 .input
 {
-	margin-left: 700px;
+	margin-left: 500px;
 	background-color: rgba(255, 255, 255, 0.1);
     border: solid 1px #fff;
     padding: 20px;
     width: 30%;
     color: #fff;
+    margin-bottom: 75px;
 }
-.keysubmit
+.coffeesubmit
 {
 	background: rgba(61, 201, 179, 0.5);
     border: solid 1px rgba(61, 201, 179, 0.5);
@@ -485,68 +517,71 @@ h2::after {
     -o-transition: all 0.5s ease;
 }
 
-.fourteen
+.seven
 {
 
 	width: 100%;
 	background-color: #f3f5f8;
+	height: 600px;
 }
 
 .headt
 {
-
-	margin-top: 100px;
-	font-size: 15px;
+	
+	margin-top: 0px;
+	font-size: 20px;
     letter-spacing: 1px;
-    background: url("h1-bg.png") no-repeat center bottom;
-    padding-bottom: 70px;
-   
+    background: url("h1-bg.png") no-repeat center ; 
+    padding-top: 120px;
 }
-
-.fifteen
-{
-	width: 400px;
-	height: 400px;
-	margin:50px 0 0 80px;
+.eight
+{	
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	margin-top:-100px;
+	margin-left: 50px;
+	padding: 50px;
 
 }
 .adress
 {	
-	margin-top: 30px 0 0 -150px;
+	margin-top:30px;
 	font-family: inherit;
 	font-size: 28px;
  	text-align: center;
  	color: #4FBFA8;
 }
-.level
+.sydney
 { 	
 
 	margin-top: 20px;
 	height: 20px;
 	width: 250px;
-	margin-left: 60px;
+	margin-left: 30px;
 	color: #8c9398;
     word-spacing: 1px;
     font-size: 18px;
     text-align: center;
 }
-.sixteen
+.nine
 {
-	height: 400px;
-	width: 400px;
-	margin-left: 825px;
-	margin-top: -410px;
+	background-color: white;
+	height: 200px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: -320px;
+	padding: 50px;
 }
 .phone
 {	
 	font-family: inherit;
 	font-size: 28px;
-	margin:-10px 0 0 -150px;
 	text-align: center;
 	color: #4FBFA8;
 }
 
-.mobile
+.number
 {
  	margin-top: 20px;
  	height: 20px;
@@ -555,24 +590,27 @@ h2::after {
     word-spacing: 1px;
     font-size: 18px;
     text-align: center;
+    margin-left: 20px;
 }
-.seventeen
-{
-	height: 400px;
-	width: 400px;
-	margin-left: 1400px;
-	margin-top: -430px;
+.ten
+{	
+
+	background-color: white;
+	height: 200px;
+	width: 300px;
+	margin-left: 950px;
+	margin-top: -320px;
+	padding: 50px;
 }
 .email
 {
 
 	font-family: inherit;
 	font-size: 28px;
-	margin:10px 0 0 -150PX;
 	text-align: center;
 	color: #4FBFA8;
 }
-.mail
+.hey
 {
 	margin-top: 20px;
 	height: 20px;
@@ -581,20 +619,26 @@ h2::after {
     word-spacing: 1px;
     font-size: 18px;
     text-align: center;
+    margin-left: 30px;
 }
-.end{
-	width: 100%;
-	height: 200px;
+.lastone
+{
+	width: 1319px;
+	height: 20px;
 	background-color: black;
 	padding: 100px;
+	margin-top: -20px;
 
 }
-.last{
+.last
+{
 	color:  #8c9398;
+	margin-top: -20px;
 }
 
-.design{
+.end
+{
 	color: white;
-	margin-top: -35px;
+	margin-top: -45px;
 	float: right; 
 }
